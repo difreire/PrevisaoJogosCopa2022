@@ -125,7 +125,7 @@ def aux(x):
     return f'{str(round(100 * x, 1))}%'
 
 
-st.table(matriz.applymap(aux))
+st.table(matriz.map(aux))
 
 st.markdown('---')
 st.markdown('## 🌎 Probabilidades dos Jogos da Copa')

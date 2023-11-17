@@ -92,7 +92,9 @@ def ProbabilidadesPartida(selecao1, selecao2):
 # app comeca agora
 
 # Adiciona um título a página
-st.title('Minha IA que prevê jogos')
+st.title('🏆 Copa do Mundo Qatar 2022')
+st.markdown('### ⚽  Probabilidades das Partidas')
+st.markdown('')
 
 listaselecoes1 = selecoes.index.tolist()
 listaselecoes1.sort()
